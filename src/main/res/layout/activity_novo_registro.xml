@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/activity_registro_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Data"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/activity_registro_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Local"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/activity_registro_botao_rastrear"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="Rastrear"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
